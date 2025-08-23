@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BharatComfort Listings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #111;
+      color: #eee;
+    }
+    header {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      color: #f5c518;
+    }
+    .search-bar {
+      padding: 20px;
+      text-align: center;
+      background: #1a1a1a;
+    }
+    .search-bar input, .search-bar select {
+      padding: 10px;
+      margin: 5px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: #222;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+      transition: transform 0.2s ease;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+    .card h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+      color: #f5c518;
+    }
+    .card p { margin: 3px 0; font-size: 14px; }
+    .btn {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 10px 15px;
+      background: #f5c518;
+      color: #000;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>BharatComfort Listings</header>
+
+  <div class="search-bar">
+    <select id="citySelect"></select>
+    <select id="typeSelect">
+      <option value="hotel">Hotels</option>
+      <option value="restaurant">Restaurants</option>
+    </select>
+    <button onclick="loadListings()">Search</button>
+  </div>
+
+  <div class="container" id="listingsContainer"></div>
+
+  <script>
+    let data = {};
+    async function fetchData() {
+      const res = await fetch("listings.json");
+      data = await res.json();
+      const citySelect = document.getElementById("citySelect");
+      Object.keys(data).forEach(city => {
+        const opt = document.createElement("option");
+        opt.value = city;
+        opt.textContent = city;
+        citySelect.appendChild(opt);
+      });
+
+      // auto-load from URL
+      const url = new URL(window.location.href);
+      const city = url.searchParams.get("city") || "Delhi";
+      const type = url.searchParams.get("type") || "hotel";
+      citySelect.value = city;
+      document.getElementById("typeSelect").value = type;
+      showListings(city, type);
+    }
+
+    function loadListings() {
+      const city = document.getElementById("citySelect").value;
+      const type = document.getElementById("typeSelect").value;
+      showListings(city, type);
+    }
+
+    function showListings(city, type) {
+      const container = document.getElementById("listingsContainer");
+      container.innerHTML = "";
+      if (!data[city] || !data[city][type]) return;
+      data[city][type].forEach(item => {
+        const card = document.createElement("div");
+        card.className = "card";
+        card.innerHTML = `
+          <img src="${item.image}" alt="${item.name}">
+          <h3>${item.name}</h3>
+          <p>${item.address}</p>
+          <p>Price: ₹${item.price}</p>
+          <a href="${item.link}" class="btn" target="_blank">View Details</a>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    fetchData();
+  </script>
+</body>
+</html>
