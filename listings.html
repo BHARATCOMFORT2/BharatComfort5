@@ -1,174 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BharatComfort Listings</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #121212;
-      color: #fff;
-    }
-    header {
-      padding: 20px;
-      background: #000;
-      text-align: center;
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
-    .controls {
-      text-align: center;
-      padding: 15px;
-    }
-    .controls input {
-      padding: 10px;
-      width: 250px;
-      border-radius: 5px;
-      border: none;
-      margin-right: 10px;
-    }
-    .controls button {
-      margin: 5px;
-      padding: 8px 16px;
-      background: #FFD700;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-weight: bold;
-    }
-    .controls button:hover {
-      background: #e6c200;
-    }
-    .listings {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 20px;
-      padding: 20px;
-    }
-    .card {
-      background: #1e1e1e;
-      border-radius: 10px;
-      padding: 15px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
-      transition: transform 0.2s;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-    }
-    .card h3 {
-      margin: 0;
-      font-size: 1.2rem;
-      color: #FFD700;
-    }
-    .card p {
-      margin: 5px 0;
-      font-size: 0.9rem;
-    }
-    .card a {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 6px 12px;
-      background: #FFD700;
-      color: #000;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    .card a:hover {
-      background: #e6c200;
-    }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>BharatComfort Listings</title>
+<style>
+  body{margin:0;font-family:Arial,system-ui;background:#121212;color:#fff}
+  header{padding:18px 20px;background:#000;font-weight:700;text-align:center}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;padding:14px;background:#1a1a1a}
+  select,input,button{padding:10px 12px;border-radius:8px;border:none;font-size:14px}
+  select,input{background:#0f0f0f;color:#eee;border:1px solid #2a2a2a}
+  button{background:#FFD700;color:#000;font-weight:700;cursor:pointer}
+  button:hover{background:#e6c200}
+  .wrap{max-width:1200px;margin:0 auto;padding:20px}
+  .count{opacity:.8;margin:0 0 10px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+  .card{background:#1e1e1e;border-radius:12px;padding:14px;box-shadow:0 4px 10px rgba(0,0,0,.6)}
+  .img{width:100%;height:170px;border-radius:10px;background:#0f0f0f;display:block;object-fit:cover}
+  h3{margin:10px 0 4px;font-size:18px;color:#FFD700}
+  p{margin:4px 0;font-size:14px}
+  .btn{display:inline-block;margin-top:8px;padding:8px 12px;background:#FFD700;color:#000;border-radius:8px;text-decoration:none;font-weight:700}
+  .btn:hover{background:#e6c200}
+</style>
 </head>
 <body>
-  <header>BharatComfort Listings</header>
-  
-  <div class="controls">
-    <input type="text" id="searchBox" placeholder="Search city or hotel/restaurant..." onkeyup="handleSearch()">
-    <button onclick="filterType('hotel')">Hotels</button>
-    <button onclick="filterType('restaurant')">Restaurants</button>
-  </div>
+<header>BharatComfort Listings</header>
 
-  <div class="listings" id="listingsContainer">
-    <p>Loading listings...</p>
-  </div>
+<div class="controls">
+  <select id="citySel"></select>
+  <select id="typeSel">
+    <option value="hotels">Hotels</option>
+    <option value="restaurants">Restaurants</option>
+  </select>
+  <input id="q" placeholder="Search name…" />
+  <button id="applyBtn">Apply</button>
+</div>
 
-  <script>
-    let globalData = {};
-    let activeCity = 'Delhi';
-    let activeType = 'hotel';
+<div class="wrap">
+  <p class="count" id="heading">Loading…</p>
+  <div id="grid" class="grid"></div>
+</div>
 
-    async function loadListings() {
-      try {
-        const response = await fetch('listings.json');
-        globalData = await response.json();
+<script>
+  let DATA = {};
+  let city = 'Delhi', type = 'hotels';
 
-        const urlParams = new URLSearchParams(window.location.search);
-        activeCity = urlParams.get('city') || 'Delhi';
-        activeType = urlParams.get('type') || 'hotel';
+  const byId = id => document.getElementById(id);
 
-        displayListings(globalData, activeCity, activeType);
-      } catch (error) {
-        document.getElementById('listingsContainer').innerHTML = '<p>Error loading listings.</p>';
-      }
+  async function init(){
+    const res = await fetch('listings.json');
+    DATA = await res.json();
+
+    // populate city dropdown
+    const citySel = byId('citySel');
+    Object.keys(DATA).sort().forEach(c=>{
+      const o=document.createElement('option'); o.value=o.textContent=c; citySel.appendChild(o);
+    });
+
+    // pick from URL if present
+    const p = new URLSearchParams(location.search);
+    city = p.get('city') || city;
+    type = (p.get('type')==='restaurants') ? 'restaurants' : (p.get('type')==='hotels' ? 'hotels' : type);
+
+    citySel.value = city;
+    byId('typeSel').value = type;
+
+    // events
+    byId('applyBtn').onclick = () => {
+      city = citySel.value;
+      type = byId('typeSel').value;
+      render();
+      const url = new URL(location);
+      url.searchParams.set('city', city);
+      url.searchParams.set('type', type);
+      history.replaceState(null,'',url);
+    };
+    byId('q').oninput = () => render();
+
+    render();
+  }
+
+  function render(){
+    const list = (DATA[city] && DATA[city][type]) ? DATA[city][type] : [];
+    const q = byId('q').value.trim().toLowerCase();
+    const filtered = q ? list.filter(x=>x.name.toLowerCase().includes(q)) : list;
+
+    byId('heading').textContent = `${type==='hotels'?'Hotels':'Restaurants'} in ${city} • ${filtered.length} result(s)`;
+    const grid = byId('grid'); grid.innerHTML='';
+
+    if(!filtered.length){
+      grid.innerHTML = `<p>No results found.</p>`;
+      return;
     }
 
-    function displayListings(data, city, type, searchTerm = '') {
-      const container = document.getElementById('listingsContainer');
-      container.innerHTML = '';
+    filtered.forEach((item, idx)=>{
+      const card = document.createElement('div');
+      card.className = 'card';
+      const imgSrc = item.image || 'assets/images/placeholder.jpg';
+      card.innerHTML = `
+        <img class="img" src="${imgSrc}" alt="${item.name}">
+        <h3>${item.name}</h3>
+        <p><strong>Address:</strong> ${item.address||'-'}</p>
+        <p><strong>Price:</strong> ${item.price||'-'}</p>
+        <a class="btn" href="detail.html?city=${encodeURIComponent(city)}&type=${encodeURIComponent(type)}&id=${idx}">Details</a>
+      `;
+      grid.appendChild(card);
+    });
+  }
 
-      if (!data[city]) {
-        container.innerHTML = `<p>No listings found for ${city}.</p>`;
-        return;
-      }
-
-      let listings = data[city][type] || [];
-
-      if (searchTerm) {
-        const lowerSearch = searchTerm.toLowerCase();
-        listings = listings.filter(item => item.name.toLowerCase().includes(lowerSearch));
-      }
-
-      if (listings.length === 0) {
-        container.innerHTML = `<p>No results found in ${city}.</p>`;
-        return;
-      }
-
-      listings.forEach(item => {
-        const card = document.createElement('div');
-        card.className = 'card';
-        card.innerHTML = `
-          <h3>${item.name}</h3>
-          <p><strong>Address:</strong> ${item.address}</p>
-          <p><strong>Price:</strong> ${item.price}</p>
-          <a href="${item.link}" target="_blank">Visit</a>
-        `;
-        container.appendChild(card);
-      });
-    }
-
-    function filterType(type) {
-      activeType = type;
-      displayListings(globalData, activeCity, activeType, document.getElementById('searchBox').value);
-    }
-
-    function handleSearch() {
-      const searchVal = document.getElementById('searchBox').value.trim();
-      
-      // If search matches a city name → switch city
-      const cityMatch = Object.keys(globalData).find(c => c.toLowerCase() === searchVal.toLowerCase());
-      if (cityMatch) {
-        activeCity = cityMatch;
-        displayListings(globalData, activeCity, activeType);
-        return;
-      }
-
-      // Otherwise filter within current city
-      displayListings(globalData, activeCity, activeType, searchVal);
-    }
-
-    loadListings();
-  </script>
+  init();
+</script>
 </body>
 </html>
