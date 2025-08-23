@@ -18,11 +18,18 @@
       font-size: 1.5rem;
       font-weight: bold;
     }
-    .filters {
-      padding: 10px;
+    .controls {
       text-align: center;
+      padding: 15px;
     }
-    .filters button {
+    .controls input {
+      padding: 10px;
+      width: 250px;
+      border-radius: 5px;
+      border: none;
+      margin-right: 10px;
+    }
+    .controls button {
       margin: 5px;
       padding: 8px 16px;
       background: #FFD700;
@@ -31,7 +38,7 @@
       cursor: pointer;
       font-weight: bold;
     }
-    .filters button:hover {
+    .controls button:hover {
       background: #e6c200;
     }
     .listings {
@@ -77,7 +84,8 @@
 <body>
   <header>BharatComfort Listings</header>
   
-  <div class="filters">
+  <div class="controls">
+    <input type="text" id="searchBox" placeholder="Search city or hotel/restaurant..." onkeyup="handleSearch()">
     <button onclick="filterType('hotel')">Hotels</button>
     <button onclick="filterType('restaurant')">Restaurants</button>
   </div>
@@ -87,22 +95,26 @@
   </div>
 
   <script>
+    let globalData = {};
+    let activeCity = 'Delhi';
+    let activeType = 'hotel';
+
     async function loadListings() {
       try {
         const response = await fetch('listings.json');
-        const data = await response.json();
+        globalData = await response.json();
 
         const urlParams = new URLSearchParams(window.location.search);
-        const city = urlParams.get('city') || 'Delhi';
-        const type = urlParams.get('type') || 'hotel';
+        activeCity = urlParams.get('city') || 'Delhi';
+        activeType = urlParams.get('type') || 'hotel';
 
-        displayListings(data, city, type);
+        displayListings(globalData, activeCity, activeType);
       } catch (error) {
         document.getElementById('listingsContainer').innerHTML = '<p>Error loading listings.</p>';
       }
     }
 
-    function displayListings(data, city, type) {
+    function displayListings(data, city, type, searchTerm = '') {
       const container = document.getElementById('listingsContainer');
       container.innerHTML = '';
 
@@ -111,9 +123,15 @@
         return;
       }
 
-      const listings = data[city][type];
-      if (!listings || listings.length === 0) {
-        container.innerHTML = `<p>No ${type} listings found in ${city}.</p>`;
+      let listings = data[city][type] || [];
+
+      if (searchTerm) {
+        const lowerSearch = searchTerm.toLowerCase();
+        listings = listings.filter(item => item.name.toLowerCase().includes(lowerSearch));
+      }
+
+      if (listings.length === 0) {
+        container.innerHTML = `<p>No results found in ${city}.</p>`;
         return;
       }
 
@@ -131,18 +149,26 @@
     }
 
     function filterType(type) {
-      const urlParams = new URLSearchParams(window.location.search);
-      const city = urlParams.get('city') || 'Delhi';
-      displayListings(window.globalData, city, type);
+      activeType = type;
+      displayListings(globalData, activeCity, activeType, document.getElementById('searchBox').value);
     }
 
-    loadListings().then(() => {
-      // Keep global data for filter buttons
-      fetch('listings.json')
-        .then(res => res.json())
-        .then(json => { window.globalData = json; });
-    });
+    function handleSearch() {
+      const searchVal = document.getElementById('searchBox').value.trim();
+      
+      // If search matches a city name → switch city
+      const cityMatch = Object.keys(globalData).find(c => c.toLowerCase() === searchVal.toLowerCase());
+      if (cityMatch) {
+        activeCity = cityMatch;
+        displayListings(globalData, activeCity, activeType);
+        return;
+      }
+
+      // Otherwise filter within current city
+      displayListings(globalData, activeCity, activeType, searchVal);
+    }
+
+    loadListings();
   </script>
 </body>
 </html>
-<!DOCTYPE html>
