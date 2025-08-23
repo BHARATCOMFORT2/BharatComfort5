@@ -1,404 +1,7352 @@
 {
-  "cities": [
-    {
-      "city": "Delhi",
-      "file": "city_delhi.json"
-    },
-    {
-      "city": "Mumbai",
-      "file": "city_mumbai.json"
-    },
-    {
-      "city": "Kolkata",
-      "file": "city_kolkata.json"
-    },
-    {
-      "city": "Chennai",
-      "file": "city_chennai.json"
-    },
-    {
-      "city": "Bengaluru",
-      "file": "city_bengaluru.json"
-    },
-    {
-      "city": "Hyderabad",
-      "file": "city_hyderabad.json"
-    },
-    {
-      "city": "Ahmedabad",
-      "file": "city_ahmedabad.json"
-    },
-    {
-      "city": "Pune",
-      "file": "city_pune.json"
-    },
-    {
-      "city": "Jaipur",
-      "file": "city_jaipur.json"
-    },
-    {
-      "city": "Lucknow",
-      "file": "city_lucknow.json"
-    },
-    {
-      "city": "Kanpur",
-      "file": "city_kanpur.json"
-    },
-    {
-      "city": "Nagpur",
-      "file": "city_nagpur.json"
-    },
-    {
-      "city": "Indore",
-      "file": "city_indore.json"
-    },
-    {
-      "city": "Thane",
-      "file": "city_thane.json"
-    },
-    {
-      "city": "Bhopal",
-      "file": "city_bhopal.json"
-    },
-    {
-      "city": "Visakhapatnam",
-      "file": "city_visakhapatnam.json"
-    },
-    {
-      "city": "Patna",
-      "file": "city_patna.json"
-    },
-    {
-      "city": "Vadodara",
-      "file": "city_vadodara.json"
-    },
-    {
-      "city": "Ghaziabad",
-      "file": "city_ghaziabad.json"
-    },
-    {
-      "city": "Ludhiana",
-      "file": "city_ludhiana.json"
-    },
-    {
-      "city": "Agra",
-      "file": "city_agra.json"
-    },
-    {
-      "city": "Nashik",
-      "file": "city_nashik.json"
-    },
-    {
-      "city": "Faridabad",
-      "file": "city_faridabad.json"
-    },
-    {
-      "city": "Meerut",
-      "file": "city_meerut.json"
-    },
-    {
-      "city": "Rajkot",
-      "file": "city_rajkot.json"
-    },
-    {
-      "city": "Kalyan",
-      "file": "city_kalyan.json"
-    },
-    {
-      "city": "Vasai-Virar",
-      "file": "city_vasai-virar.json"
-    },
-    {
-      "city": "Varanasi",
-      "file": "city_varanasi.json"
-    },
-    {
-      "city": "Srinagar",
-      "file": "city_srinagar.json"
-    },
-    {
-      "city": "Dhanbad",
-      "file": "city_dhanbad.json"
-    },
-    {
-      "city": "Jodhpur",
-      "file": "city_jodhpur.json"
-    },
-    {
-      "city": "Amritsar",
-      "file": "city_amritsar.json"
-    },
-    {
-      "city": "Raipur",
-      "file": "city_raipur.json"
-    },
-    {
-      "city": "Kota",
-      "file": "city_kota.json"
-    },
-    {
-      "city": "Guwahati",
-      "file": "city_guwahati.json"
-    },
-    {
-      "city": "Chandigarh",
-      "file": "city_chandigarh.json"
-    },
-    {
-      "city": "Solapur",
-      "file": "city_solapur.json"
-    },
-    {
-      "city": "Hubli",
-      "file": "city_hubli.json"
-    },
-    {
-      "city": "Bareilly",
-      "file": "city_bareilly.json"
-    },
-    {
-      "city": "Moradabad",
-      "file": "city_moradabad.json"
-    },
-    {
-      "city": "Jabalpur",
-      "file": "city_jabalpur.json"
-    },
-    {
-      "city": "Tiruchirappalli",
-      "file": "city_tiruchirappalli.json"
-    },
-    {
-      "city": "Mysore",
-      "file": "city_mysore.json"
-    },
-    {
-      "city": "Gwalior",
-      "file": "city_gwalior.json"
-    },
-    {
-      "city": "Aligarh",
-      "file": "city_aligarh.json"
-    },
-    {
-      "city": "Bikaner",
-      "file": "city_bikaner.json"
-    },
-    {
-      "city": "Noida",
-      "file": "city_noida.json"
-    },
-    {
-      "city": "Siliguri",
-      "file": "city_siliguri.json"
-    },
-    {
-      "city": "Bhilai",
-      "file": "city_bhilai.json"
-    },
-    {
-      "city": "Dehradun",
-      "file": "city_dehradun.json"
-    },
-    {
-      "city": "Jammu",
-      "file": "city_jammu.json"
-    },
-    {
-      "city": "Thiruvananthapuram",
-      "file": "city_thiruvananthapuram.json"
-    },
-    {
-      "city": "Guntur",
-      "file": "city_guntur.json"
-    },
-    {
-      "city": "Amravati",
-      "file": "city_amravati.json"
-    },
-    {
-      "city": "Rourkela",
-      "file": "city_rourkela.json"
-    },
-    {
-      "city": "Kochi",
-      "file": "city_kochi.json"
-    },
-    {
-      "city": "Nellore",
-      "file": "city_nellore.json"
-    },
-    {
-      "city": "Kolhapur",
-      "file": "city_kolhapur.json"
-    },
-    {
-      "city": "Ajmer",
-      "file": "city_ajmer.json"
-    },
-    {
-      "city": "Durgapur",
-      "file": "city_durgapur.json"
-    },
-    {
-      "city": "Asansol",
-      "file": "city_asansol.json"
-    },
-    {
-      "city": "Nanded",
-      "file": "city_nanded.json"
-    },
-    {
-      "city": "Tirupur",
-      "file": "city_tirupur.json"
-    },
-    {
-      "city": "Bhubaneswar",
-      "file": "city_bhubaneswar.json"
-    },
-    {
-      "city": "Nizamabad",
-      "file": "city_nizamabad.json"
-    },
-    {
-      "city": "Malegaon",
-      "file": "city_malegaon.json"
-    },
-    {
-      "city": "Gulbarga",
-      "file": "city_gulbarga.json"
-    },
-    {
-      "city": "Jamshedpur",
-      "file": "city_jamshedpur.json"
-    },
-    {
-      "city": "Ujjain",
-      "file": "city_ujjain.json"
-    },
-    {
-      "city": "Davangere",
-      "file": "city_davangere.json"
-    },
-    {
-      "city": "Jalgaon",
-      "file": "city_jalgaon.json"
-    },
-    {
-      "city": "Jamnagar",
-      "file": "city_jamnagar.json"
-    },
-    {
-      "city": "Belgaum",
-      "file": "city_belgaum.json"
-    },
-    {
-      "city": "Kozhikode",
-      "file": "city_kozhikode.json"
-    },
-    {
-      "city": "Kurnool",
-      "file": "city_kurnool.json"
-    },
-    {
-      "city": "Akola",
-      "file": "city_akola.json"
-    },
-    {
-      "city": "Rajahmundry",
-      "file": "city_rajahmundry.json"
-    },
-    {
-      "city": "Ballari",
-      "file": "city_ballari.json"
-    },
-    {
-      "city": "Shillong",
-      "file": "city_shillong.json"
-    },
-    {
-      "city": "Tirunelveli",
-      "file": "city_tirunelveli.json"
-    },
-    {
-      "city": "Bhavnagar",
-      "file": "city_bhavnagar.json"
-    },
-    {
-      "city": "Warangal",
-      "file": "city_warangal.json"
-    },
-    {
-      "city": "Darbhanga",
-      "file": "city_darbhanga.json"
-    },
-    {
-      "city": "Kakinada",
-      "file": "city_kakinada.json"
-    },
-    {
-      "city": "Kollam",
-      "file": "city_kollam.json"
-    },
-    {
-      "city": "Ulhasnagar",
-      "file": "city_ulhasnagar.json"
-    },
-    {
-      "city": "Bardhaman",
-      "file": "city_bardhaman.json"
-    },
-    {
-      "city": "Karaikudi",
-      "file": "city_karaikudi.json"
-    },
-    {
-      "city": "Mathura",
-      "file": "city_mathura.json"
-    },
-    {
-      "city": "Hosur",
-      "file": "city_hosur.json"
-    },
-    {
-      "city": "Shimla",
-      "file": "city_shimla.json"
-    },
-    {
-      "city": "Puducherry",
-      "file": "city_puducherry.json"
-    },
-    {
-      "city": "Gangtok",
-      "file": "city_gangtok.json"
-    },
-    {
-      "city": "Itanagar",
-      "file": "city_itanagar.json"
-    },
-    {
-      "city": "Agartala",
-      "file": "city_agartala.json"
-    },
-    {
-      "city": "Kavaratti",
-      "file": "city_kavaratti.json"
-    },
-    {
-      "city": "Leh",
-      "file": "city_leh.json"
-    },
-    {
-      "city": "Daman",
-      "file": "city_daman.json"
-    },
-    {
-      "city": "Diu",
-      "file": "city_diu.json"
-    },
-    {
-      "city": "Port Blair",
-      "file": "city_port_blair.json"
-    }
-  ]
+  "Delhi": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Delhi",
+        "address": "Delhi Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Delhi",
+        "address": "Delhi Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Delhi",
+        "address": "Delhi Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Delhi",
+        "address": "Delhi City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Mumbai": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Mumbai",
+        "address": "Mumbai Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Mumbai",
+        "address": "Mumbai Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Mumbai",
+        "address": "Mumbai Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Mumbai",
+        "address": "Mumbai City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Bangalore": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Bangalore",
+        "address": "Bangalore Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Bangalore",
+        "address": "Bangalore Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Bangalore",
+        "address": "Bangalore Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Bangalore",
+        "address": "Bangalore City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Hyderabad": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Hyderabad",
+        "address": "Hyderabad Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Hyderabad",
+        "address": "Hyderabad Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Hyderabad",
+        "address": "Hyderabad Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Hyderabad",
+        "address": "Hyderabad City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Chennai": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Chennai",
+        "address": "Chennai Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Chennai",
+        "address": "Chennai Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Chennai",
+        "address": "Chennai Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Chennai",
+        "address": "Chennai City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Kolkata": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Kolkata",
+        "address": "Kolkata Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Kolkata",
+        "address": "Kolkata Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Kolkata",
+        "address": "Kolkata Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Kolkata",
+        "address": "Kolkata City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Pune": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Pune",
+        "address": "Pune Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Pune",
+        "address": "Pune Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Pune",
+        "address": "Pune Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Pune",
+        "address": "Pune City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Ahmedabad": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Ahmedabad",
+        "address": "Ahmedabad Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Ahmedabad",
+        "address": "Ahmedabad Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Ahmedabad",
+        "address": "Ahmedabad Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Ahmedabad",
+        "address": "Ahmedabad City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Jaipur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Jaipur",
+        "address": "Jaipur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Jaipur",
+        "address": "Jaipur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Jaipur",
+        "address": "Jaipur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Jaipur",
+        "address": "Jaipur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Lucknow": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Lucknow",
+        "address": "Lucknow Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Lucknow",
+        "address": "Lucknow Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Lucknow",
+        "address": "Lucknow Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Lucknow",
+        "address": "Lucknow City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Kanpur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Kanpur",
+        "address": "Kanpur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Kanpur",
+        "address": "Kanpur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Kanpur",
+        "address": "Kanpur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Kanpur",
+        "address": "Kanpur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Nagpur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Nagpur",
+        "address": "Nagpur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Nagpur",
+        "address": "Nagpur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Nagpur",
+        "address": "Nagpur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Nagpur",
+        "address": "Nagpur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Indore": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Indore",
+        "address": "Indore Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Indore",
+        "address": "Indore Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Indore",
+        "address": "Indore Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Indore",
+        "address": "Indore City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Bhopal": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Bhopal",
+        "address": "Bhopal Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Bhopal",
+        "address": "Bhopal Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Bhopal",
+        "address": "Bhopal Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Bhopal",
+        "address": "Bhopal City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Patna": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Patna",
+        "address": "Patna Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Patna",
+        "address": "Patna Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Patna",
+        "address": "Patna Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Patna",
+        "address": "Patna City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Vadodara": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Vadodara",
+        "address": "Vadodara Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Vadodara",
+        "address": "Vadodara Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Vadodara",
+        "address": "Vadodara Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Vadodara",
+        "address": "Vadodara City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Ludhiana": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Ludhiana",
+        "address": "Ludhiana Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Ludhiana",
+        "address": "Ludhiana Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Ludhiana",
+        "address": "Ludhiana Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Ludhiana",
+        "address": "Ludhiana City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Agra": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Agra",
+        "address": "Agra Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Agra",
+        "address": "Agra Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Agra",
+        "address": "Agra Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Agra",
+        "address": "Agra City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Nashik": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Nashik",
+        "address": "Nashik Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Nashik",
+        "address": "Nashik Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Nashik",
+        "address": "Nashik Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Nashik",
+        "address": "Nashik City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Faridabad": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Faridabad",
+        "address": "Faridabad Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Faridabad",
+        "address": "Faridabad Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Faridabad",
+        "address": "Faridabad Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Faridabad",
+        "address": "Faridabad City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Meerut": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Meerut",
+        "address": "Meerut Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Meerut",
+        "address": "Meerut Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Meerut",
+        "address": "Meerut Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Meerut",
+        "address": "Meerut City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Rajkot": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Rajkot",
+        "address": "Rajkot Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Rajkot",
+        "address": "Rajkot Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Rajkot",
+        "address": "Rajkot Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Rajkot",
+        "address": "Rajkot City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Varanasi": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Varanasi",
+        "address": "Varanasi Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Varanasi",
+        "address": "Varanasi Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Varanasi",
+        "address": "Varanasi Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Varanasi",
+        "address": "Varanasi City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Srinagar": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Srinagar",
+        "address": "Srinagar Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Srinagar",
+        "address": "Srinagar Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Srinagar",
+        "address": "Srinagar Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Srinagar",
+        "address": "Srinagar City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Amritsar": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Amritsar",
+        "address": "Amritsar Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Amritsar",
+        "address": "Amritsar Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Amritsar",
+        "address": "Amritsar Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Amritsar",
+        "address": "Amritsar City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Allahabad": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Allahabad",
+        "address": "Allahabad Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Allahabad",
+        "address": "Allahabad Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Allahabad",
+        "address": "Allahabad Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Allahabad",
+        "address": "Allahabad City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Ranchi": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Ranchi",
+        "address": "Ranchi Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Ranchi",
+        "address": "Ranchi Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Ranchi",
+        "address": "Ranchi Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Ranchi",
+        "address": "Ranchi City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Coimbatore": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Coimbatore",
+        "address": "Coimbatore Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Coimbatore",
+        "address": "Coimbatore Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Coimbatore",
+        "address": "Coimbatore Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Coimbatore",
+        "address": "Coimbatore City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Jodhpur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Jodhpur",
+        "address": "Jodhpur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Jodhpur",
+        "address": "Jodhpur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Jodhpur",
+        "address": "Jodhpur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Jodhpur",
+        "address": "Jodhpur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Guwahati": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Guwahati",
+        "address": "Guwahati Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Guwahati",
+        "address": "Guwahati Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Guwahati",
+        "address": "Guwahati Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Guwahati",
+        "address": "Guwahati City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Chandigarh": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Chandigarh",
+        "address": "Chandigarh Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Chandigarh",
+        "address": "Chandigarh Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Chandigarh",
+        "address": "Chandigarh Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Chandigarh",
+        "address": "Chandigarh City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Mysore": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Mysore",
+        "address": "Mysore Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Mysore",
+        "address": "Mysore Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Mysore",
+        "address": "Mysore Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Mysore",
+        "address": "Mysore City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Ghaziabad": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Ghaziabad",
+        "address": "Ghaziabad Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Ghaziabad",
+        "address": "Ghaziabad Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Ghaziabad",
+        "address": "Ghaziabad Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Ghaziabad",
+        "address": "Ghaziabad City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Noida": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Noida",
+        "address": "Noida Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Noida",
+        "address": "Noida Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Noida",
+        "address": "Noida Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Noida",
+        "address": "Noida City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Gurgaon": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Gurgaon",
+        "address": "Gurgaon Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Gurgaon",
+        "address": "Gurgaon Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Gurgaon",
+        "address": "Gurgaon Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Gurgaon",
+        "address": "Gurgaon City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Howrah": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Howrah",
+        "address": "Howrah Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Howrah",
+        "address": "Howrah Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Howrah",
+        "address": "Howrah Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Howrah",
+        "address": "Howrah City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Jabalpur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Jabalpur",
+        "address": "Jabalpur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Jabalpur",
+        "address": "Jabalpur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Jabalpur",
+        "address": "Jabalpur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Jabalpur",
+        "address": "Jabalpur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Vijayawada": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Vijayawada",
+        "address": "Vijayawada Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Vijayawada",
+        "address": "Vijayawada Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Vijayawada",
+        "address": "Vijayawada Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Vijayawada",
+        "address": "Vijayawada City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Madurai": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Madurai",
+        "address": "Madurai Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Madurai",
+        "address": "Madurai Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Madurai",
+        "address": "Madurai Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Madurai",
+        "address": "Madurai City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Raipur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Raipur",
+        "address": "Raipur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Raipur",
+        "address": "Raipur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Raipur",
+        "address": "Raipur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Raipur",
+        "address": "Raipur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Kota": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Kota",
+        "address": "Kota Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Kota",
+        "address": "Kota Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Kota",
+        "address": "Kota Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Kota",
+        "address": "Kota City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Salem": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Salem",
+        "address": "Salem Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Salem",
+        "address": "Salem Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Salem",
+        "address": "Salem Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Salem",
+        "address": "Salem City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Tiruchirappalli": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Tiruchirappalli",
+        "address": "Tiruchirappalli Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Tiruchirappalli",
+        "address": "Tiruchirappalli Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Tiruchirappalli",
+        "address": "Tiruchirappalli Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Tiruchirappalli",
+        "address": "Tiruchirappalli City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Bareilly": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Bareilly",
+        "address": "Bareilly Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Bareilly",
+        "address": "Bareilly Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Bareilly",
+        "address": "Bareilly Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Bareilly",
+        "address": "Bareilly City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Aligarh": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Aligarh",
+        "address": "Aligarh Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Aligarh",
+        "address": "Aligarh Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Aligarh",
+        "address": "Aligarh Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Aligarh",
+        "address": "Aligarh City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Moradabad": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Moradabad",
+        "address": "Moradabad Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Moradabad",
+        "address": "Moradabad Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Moradabad",
+        "address": "Moradabad Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Moradabad",
+        "address": "Moradabad City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Jamshedpur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Jamshedpur",
+        "address": "Jamshedpur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Jamshedpur",
+        "address": "Jamshedpur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Jamshedpur",
+        "address": "Jamshedpur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Jamshedpur",
+        "address": "Jamshedpur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Bhubaneswar": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Bhubaneswar",
+        "address": "Bhubaneswar Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Bhubaneswar",
+        "address": "Bhubaneswar Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Bhubaneswar",
+        "address": "Bhubaneswar Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Bhubaneswar",
+        "address": "Bhubaneswar City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Thiruvananthapuram": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Thiruvananthapuram",
+        "address": "Thiruvananthapuram Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Thiruvananthapuram",
+        "address": "Thiruvananthapuram Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Thiruvananthapuram",
+        "address": "Thiruvananthapuram Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Thiruvananthapuram",
+        "address": "Thiruvananthapuram City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Kozhikode": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Kozhikode",
+        "address": "Kozhikode Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Kozhikode",
+        "address": "Kozhikode Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Kozhikode",
+        "address": "Kozhikode Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Kozhikode",
+        "address": "Kozhikode City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Thrissur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Thrissur",
+        "address": "Thrissur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Thrissur",
+        "address": "Thrissur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Thrissur",
+        "address": "Thrissur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Thrissur",
+        "address": "Thrissur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Kochi": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Kochi",
+        "address": "Kochi Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Kochi",
+        "address": "Kochi Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Kochi",
+        "address": "Kochi Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Kochi",
+        "address": "Kochi City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Gwalior": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Gwalior",
+        "address": "Gwalior Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Gwalior",
+        "address": "Gwalior Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Gwalior",
+        "address": "Gwalior Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Gwalior",
+        "address": "Gwalior City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Dehradun": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Dehradun",
+        "address": "Dehradun Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Dehradun",
+        "address": "Dehradun Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Dehradun",
+        "address": "Dehradun Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Dehradun",
+        "address": "Dehradun City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Udaipur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Udaipur",
+        "address": "Udaipur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Udaipur",
+        "address": "Udaipur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Udaipur",
+        "address": "Udaipur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Udaipur",
+        "address": "Udaipur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Jammu": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Jammu",
+        "address": "Jammu Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Jammu",
+        "address": "Jammu Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Jammu",
+        "address": "Jammu Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Jammu",
+        "address": "Jammu City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Mangalore": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Mangalore",
+        "address": "Mangalore Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Mangalore",
+        "address": "Mangalore Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Mangalore",
+        "address": "Mangalore Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Mangalore",
+        "address": "Mangalore City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Durgapur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Durgapur",
+        "address": "Durgapur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Durgapur",
+        "address": "Durgapur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Durgapur",
+        "address": "Durgapur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Durgapur",
+        "address": "Durgapur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Asansol": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Asansol",
+        "address": "Asansol Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Asansol",
+        "address": "Asansol Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Asansol",
+        "address": "Asansol Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Asansol",
+        "address": "Asansol City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Siliguri": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Siliguri",
+        "address": "Siliguri Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Siliguri",
+        "address": "Siliguri Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Siliguri",
+        "address": "Siliguri Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Siliguri",
+        "address": "Siliguri City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Dhanbad": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Dhanbad",
+        "address": "Dhanbad Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Dhanbad",
+        "address": "Dhanbad Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Dhanbad",
+        "address": "Dhanbad Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Dhanbad",
+        "address": "Dhanbad City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Aurangabad": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Aurangabad",
+        "address": "Aurangabad Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Aurangabad",
+        "address": "Aurangabad Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Aurangabad",
+        "address": "Aurangabad Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Aurangabad",
+        "address": "Aurangabad City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Kolhapur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Kolhapur",
+        "address": "Kolhapur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Kolhapur",
+        "address": "Kolhapur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Kolhapur",
+        "address": "Kolhapur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Kolhapur",
+        "address": "Kolhapur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Solapur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Solapur",
+        "address": "Solapur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Solapur",
+        "address": "Solapur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Solapur",
+        "address": "Solapur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Solapur",
+        "address": "Solapur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Amravati": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Amravati",
+        "address": "Amravati Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Amravati",
+        "address": "Amravati Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Amravati",
+        "address": "Amravati Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Amravati",
+        "address": "Amravati City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Nanded": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Nanded",
+        "address": "Nanded Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Nanded",
+        "address": "Nanded Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Nanded",
+        "address": "Nanded Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Nanded",
+        "address": "Nanded City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Guntur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Guntur",
+        "address": "Guntur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Guntur",
+        "address": "Guntur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Guntur",
+        "address": "Guntur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Guntur",
+        "address": "Guntur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Warangal": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Warangal",
+        "address": "Warangal Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Warangal",
+        "address": "Warangal Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Warangal",
+        "address": "Warangal Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Warangal",
+        "address": "Warangal City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Hubli": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Hubli",
+        "address": "Hubli Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Hubli",
+        "address": "Hubli Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Hubli",
+        "address": "Hubli Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Hubli",
+        "address": "Hubli City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Belgaum": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Belgaum",
+        "address": "Belgaum Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Belgaum",
+        "address": "Belgaum Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Belgaum",
+        "address": "Belgaum Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Belgaum",
+        "address": "Belgaum City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Tirupati": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Tirupati",
+        "address": "Tirupati Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Tirupati",
+        "address": "Tirupati Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Tirupati",
+        "address": "Tirupati Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Tirupati",
+        "address": "Tirupati City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Kakinada": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Kakinada",
+        "address": "Kakinada Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Kakinada",
+        "address": "Kakinada Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Kakinada",
+        "address": "Kakinada Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Kakinada",
+        "address": "Kakinada City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Nellore": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Nellore",
+        "address": "Nellore Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Nellore",
+        "address": "Nellore Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Nellore",
+        "address": "Nellore Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Nellore",
+        "address": "Nellore City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Anantapur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Anantapur",
+        "address": "Anantapur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Anantapur",
+        "address": "Anantapur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Anantapur",
+        "address": "Anantapur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Anantapur",
+        "address": "Anantapur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Erode": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Erode",
+        "address": "Erode Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Erode",
+        "address": "Erode Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Erode",
+        "address": "Erode Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Erode",
+        "address": "Erode City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Vellore": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Vellore",
+        "address": "Vellore Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Vellore",
+        "address": "Vellore Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Vellore",
+        "address": "Vellore Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Vellore",
+        "address": "Vellore City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Tirunelveli": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Tirunelveli",
+        "address": "Tirunelveli Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Tirunelveli",
+        "address": "Tirunelveli Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Tirunelveli",
+        "address": "Tirunelveli Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Tirunelveli",
+        "address": "Tirunelveli City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Tuticorin": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Tuticorin",
+        "address": "Tuticorin Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Tuticorin",
+        "address": "Tuticorin Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Tuticorin",
+        "address": "Tuticorin Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Tuticorin",
+        "address": "Tuticorin City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Kottayam": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Kottayam",
+        "address": "Kottayam Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Kottayam",
+        "address": "Kottayam Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Kottayam",
+        "address": "Kottayam Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Kottayam",
+        "address": "Kottayam City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Palakkad": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Palakkad",
+        "address": "Palakkad Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Palakkad",
+        "address": "Palakkad Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Palakkad",
+        "address": "Palakkad Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Palakkad",
+        "address": "Palakkad City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Alappuzha": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Alappuzha",
+        "address": "Alappuzha Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Alappuzha",
+        "address": "Alappuzha Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Alappuzha",
+        "address": "Alappuzha Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Alappuzha",
+        "address": "Alappuzha City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Kannur": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Kannur",
+        "address": "Kannur Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Kannur",
+        "address": "Kannur Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Kannur",
+        "address": "Kannur Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Kannur",
+        "address": "Kannur City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Malappuram": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Malappuram",
+        "address": "Malappuram Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Malappuram",
+        "address": "Malappuram Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Malappuram",
+        "address": "Malappuram Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Malappuram",
+        "address": "Malappuram City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Thrippunithura": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Thrippunithura",
+        "address": "Thrippunithura Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Thrippunithura",
+        "address": "Thrippunithura Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Thrippunithura",
+        "address": "Thrippunithura Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Thrippunithura",
+        "address": "Thrippunithura City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Kollam": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Kollam",
+        "address": "Kollam Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Kollam",
+        "address": "Kollam Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Kollam",
+        "address": "Kollam Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Kollam",
+        "address": "Kollam City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Pathanamthitta": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Pathanamthitta",
+        "address": "Pathanamthitta Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Pathanamthitta",
+        "address": "Pathanamthitta Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Pathanamthitta",
+        "address": "Pathanamthitta Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Pathanamthitta",
+        "address": "Pathanamthitta City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Shillong": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Shillong",
+        "address": "Shillong Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Shillong",
+        "address": "Shillong Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Shillong",
+        "address": "Shillong Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Shillong",
+        "address": "Shillong City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Aizawl": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Aizawl",
+        "address": "Aizawl Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Aizawl",
+        "address": "Aizawl Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Aizawl",
+        "address": "Aizawl Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Aizawl",
+        "address": "Aizawl City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Imphal": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Imphal",
+        "address": "Imphal Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Imphal",
+        "address": "Imphal Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Imphal",
+        "address": "Imphal Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Imphal",
+        "address": "Imphal City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Kohima": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Kohima",
+        "address": "Kohima Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Kohima",
+        "address": "Kohima Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Kohima",
+        "address": "Kohima Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Kohima",
+        "address": "Kohima City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Itanagar": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Itanagar",
+        "address": "Itanagar Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Itanagar",
+        "address": "Itanagar Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Itanagar",
+        "address": "Itanagar Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Itanagar",
+        "address": "Itanagar City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Gangtok": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Gangtok",
+        "address": "Gangtok Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Gangtok",
+        "address": "Gangtok Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Gangtok",
+        "address": "Gangtok Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Gangtok",
+        "address": "Gangtok City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Agartala": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Agartala",
+        "address": "Agartala Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Agartala",
+        "address": "Agartala Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Agartala",
+        "address": "Agartala Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Agartala",
+        "address": "Agartala City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Port Blair": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Port Blair",
+        "address": "Port Blair Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Port Blair",
+        "address": "Port Blair Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Port Blair",
+        "address": "Port Blair Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Port Blair",
+        "address": "Port Blair City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Panaji": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Panaji",
+        "address": "Panaji Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Panaji",
+        "address": "Panaji Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Panaji",
+        "address": "Panaji Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Panaji",
+        "address": "Panaji City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Margao": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Margao",
+        "address": "Margao Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Margao",
+        "address": "Margao Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Margao",
+        "address": "Margao Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Margao",
+        "address": "Margao City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Daman": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Daman",
+        "address": "Daman Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Daman",
+        "address": "Daman Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Daman",
+        "address": "Daman Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Daman",
+        "address": "Daman City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  },
+  "Silvassa": {
+    "hotels": [
+      {
+        "name": "The Grand Palace Silvassa",
+        "address": "Silvassa Central",
+        "price": "₹5,000 - ₹15,000 per night",
+        "rooms": [
+          {
+            "type": "Deluxe Room",
+            "price": "₹5,000/night"
+          },
+          {
+            "type": "Executive Suite",
+            "price": "₹10,000/night"
+          },
+          {
+            "type": "Presidential Suite",
+            "price": "₹15,000/night"
+          }
+        ],
+        "services": [
+          "Free WiFi",
+          "Swimming Pool",
+          "Spa",
+          "Airport Pickup"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Hotel Royal Comfort Silvassa",
+        "address": "Silvassa Downtown",
+        "price": "₹3,000 - ₹12,000 per night",
+        "rooms": [
+          {
+            "type": "Standard Room",
+            "price": "₹3,000/night"
+          },
+          {
+            "type": "Luxury Suite",
+            "price": "₹7,000/night"
+          }
+        ],
+        "services": [
+          "Restaurant",
+          "Bar",
+          "Wellness Center"
+        ],
+        "link": "https://example.com"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Spice Garden Silvassa",
+        "address": "Silvassa Main Road",
+        "price": "₹1,000 - ₹3,000 for two",
+        "menu": [
+          "Paneer Tikka",
+          "Butter Chicken",
+          "Naan"
+        ],
+        "link": "https://example.com"
+      },
+      {
+        "name": "Royal Feast Silvassa",
+        "address": "Silvassa City Center",
+        "price": "₹1,500 - ₹4,000 for two",
+        "menu": [
+          "Biryani",
+          "Tandoori Chicken",
+          "Veg Korma"
+        ],
+        "link": "https://example.com"
+      }
+    ]
+  }
 }
