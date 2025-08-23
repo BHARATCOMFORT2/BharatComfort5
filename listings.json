@@ -1,0 +1,404 @@
+{
+  "cities": [
+    {
+      "city": "Delhi",
+      "file": "city_delhi.json"
+    },
+    {
+      "city": "Mumbai",
+      "file": "city_mumbai.json"
+    },
+    {
+      "city": "Kolkata",
+      "file": "city_kolkata.json"
+    },
+    {
+      "city": "Chennai",
+      "file": "city_chennai.json"
+    },
+    {
+      "city": "Bengaluru",
+      "file": "city_bengaluru.json"
+    },
+    {
+      "city": "Hyderabad",
+      "file": "city_hyderabad.json"
+    },
+    {
+      "city": "Ahmedabad",
+      "file": "city_ahmedabad.json"
+    },
+    {
+      "city": "Pune",
+      "file": "city_pune.json"
+    },
+    {
+      "city": "Jaipur",
+      "file": "city_jaipur.json"
+    },
+    {
+      "city": "Lucknow",
+      "file": "city_lucknow.json"
+    },
+    {
+      "city": "Kanpur",
+      "file": "city_kanpur.json"
+    },
+    {
+      "city": "Nagpur",
+      "file": "city_nagpur.json"
+    },
+    {
+      "city": "Indore",
+      "file": "city_indore.json"
+    },
+    {
+      "city": "Thane",
+      "file": "city_thane.json"
+    },
+    {
+      "city": "Bhopal",
+      "file": "city_bhopal.json"
+    },
+    {
+      "city": "Visakhapatnam",
+      "file": "city_visakhapatnam.json"
+    },
+    {
+      "city": "Patna",
+      "file": "city_patna.json"
+    },
+    {
+      "city": "Vadodara",
+      "file": "city_vadodara.json"
+    },
+    {
+      "city": "Ghaziabad",
+      "file": "city_ghaziabad.json"
+    },
+    {
+      "city": "Ludhiana",
+      "file": "city_ludhiana.json"
+    },
+    {
+      "city": "Agra",
+      "file": "city_agra.json"
+    },
+    {
+      "city": "Nashik",
+      "file": "city_nashik.json"
+    },
+    {
+      "city": "Faridabad",
+      "file": "city_faridabad.json"
+    },
+    {
+      "city": "Meerut",
+      "file": "city_meerut.json"
+    },
+    {
+      "city": "Rajkot",
+      "file": "city_rajkot.json"
+    },
+    {
+      "city": "Kalyan",
+      "file": "city_kalyan.json"
+    },
+    {
+      "city": "Vasai-Virar",
+      "file": "city_vasai-virar.json"
+    },
+    {
+      "city": "Varanasi",
+      "file": "city_varanasi.json"
+    },
+    {
+      "city": "Srinagar",
+      "file": "city_srinagar.json"
+    },
+    {
+      "city": "Dhanbad",
+      "file": "city_dhanbad.json"
+    },
+    {
+      "city": "Jodhpur",
+      "file": "city_jodhpur.json"
+    },
+    {
+      "city": "Amritsar",
+      "file": "city_amritsar.json"
+    },
+    {
+      "city": "Raipur",
+      "file": "city_raipur.json"
+    },
+    {
+      "city": "Kota",
+      "file": "city_kota.json"
+    },
+    {
+      "city": "Guwahati",
+      "file": "city_guwahati.json"
+    },
+    {
+      "city": "Chandigarh",
+      "file": "city_chandigarh.json"
+    },
+    {
+      "city": "Solapur",
+      "file": "city_solapur.json"
+    },
+    {
+      "city": "Hubli",
+      "file": "city_hubli.json"
+    },
+    {
+      "city": "Bareilly",
+      "file": "city_bareilly.json"
+    },
+    {
+      "city": "Moradabad",
+      "file": "city_moradabad.json"
+    },
+    {
+      "city": "Jabalpur",
+      "file": "city_jabalpur.json"
+    },
+    {
+      "city": "Tiruchirappalli",
+      "file": "city_tiruchirappalli.json"
+    },
+    {
+      "city": "Mysore",
+      "file": "city_mysore.json"
+    },
+    {
+      "city": "Gwalior",
+      "file": "city_gwalior.json"
+    },
+    {
+      "city": "Aligarh",
+      "file": "city_aligarh.json"
+    },
+    {
+      "city": "Bikaner",
+      "file": "city_bikaner.json"
+    },
+    {
+      "city": "Noida",
+      "file": "city_noida.json"
+    },
+    {
+      "city": "Siliguri",
+      "file": "city_siliguri.json"
+    },
+    {
+      "city": "Bhilai",
+      "file": "city_bhilai.json"
+    },
+    {
+      "city": "Dehradun",
+      "file": "city_dehradun.json"
+    },
+    {
+      "city": "Jammu",
+      "file": "city_jammu.json"
+    },
+    {
+      "city": "Thiruvananthapuram",
+      "file": "city_thiruvananthapuram.json"
+    },
+    {
+      "city": "Guntur",
+      "file": "city_guntur.json"
+    },
+    {
+      "city": "Amravati",
+      "file": "city_amravati.json"
+    },
+    {
+      "city": "Rourkela",
+      "file": "city_rourkela.json"
+    },
+    {
+      "city": "Kochi",
+      "file": "city_kochi.json"
+    },
+    {
+      "city": "Nellore",
+      "file": "city_nellore.json"
+    },
+    {
+      "city": "Kolhapur",
+      "file": "city_kolhapur.json"
+    },
+    {
+      "city": "Ajmer",
+      "file": "city_ajmer.json"
+    },
+    {
+      "city": "Durgapur",
+      "file": "city_durgapur.json"
+    },
+    {
+      "city": "Asansol",
+      "file": "city_asansol.json"
+    },
+    {
+      "city": "Nanded",
+      "file": "city_nanded.json"
+    },
+    {
+      "city": "Tirupur",
+      "file": "city_tirupur.json"
+    },
+    {
+      "city": "Bhubaneswar",
+      "file": "city_bhubaneswar.json"
+    },
+    {
+      "city": "Nizamabad",
+      "file": "city_nizamabad.json"
+    },
+    {
+      "city": "Malegaon",
+      "file": "city_malegaon.json"
+    },
+    {
+      "city": "Gulbarga",
+      "file": "city_gulbarga.json"
+    },
+    {
+      "city": "Jamshedpur",
+      "file": "city_jamshedpur.json"
+    },
+    {
+      "city": "Ujjain",
+      "file": "city_ujjain.json"
+    },
+    {
+      "city": "Davangere",
+      "file": "city_davangere.json"
+    },
+    {
+      "city": "Jalgaon",
+      "file": "city_jalgaon.json"
+    },
+    {
+      "city": "Jamnagar",
+      "file": "city_jamnagar.json"
+    },
+    {
+      "city": "Belgaum",
+      "file": "city_belgaum.json"
+    },
+    {
+      "city": "Kozhikode",
+      "file": "city_kozhikode.json"
+    },
+    {
+      "city": "Kurnool",
+      "file": "city_kurnool.json"
+    },
+    {
+      "city": "Akola",
+      "file": "city_akola.json"
+    },
+    {
+      "city": "Rajahmundry",
+      "file": "city_rajahmundry.json"
+    },
+    {
+      "city": "Ballari",
+      "file": "city_ballari.json"
+    },
+    {
+      "city": "Shillong",
+      "file": "city_shillong.json"
+    },
+    {
+      "city": "Tirunelveli",
+      "file": "city_tirunelveli.json"
+    },
+    {
+      "city": "Bhavnagar",
+      "file": "city_bhavnagar.json"
+    },
+    {
+      "city": "Warangal",
+      "file": "city_warangal.json"
+    },
+    {
+      "city": "Darbhanga",
+      "file": "city_darbhanga.json"
+    },
+    {
+      "city": "Kakinada",
+      "file": "city_kakinada.json"
+    },
+    {
+      "city": "Kollam",
+      "file": "city_kollam.json"
+    },
+    {
+      "city": "Ulhasnagar",
+      "file": "city_ulhasnagar.json"
+    },
+    {
+      "city": "Bardhaman",
+      "file": "city_bardhaman.json"
+    },
+    {
+      "city": "Karaikudi",
+      "file": "city_karaikudi.json"
+    },
+    {
+      "city": "Mathura",
+      "file": "city_mathura.json"
+    },
+    {
+      "city": "Hosur",
+      "file": "city_hosur.json"
+    },
+    {
+      "city": "Shimla",
+      "file": "city_shimla.json"
+    },
+    {
+      "city": "Puducherry",
+      "file": "city_puducherry.json"
+    },
+    {
+      "city": "Gangtok",
+      "file": "city_gangtok.json"
+    },
+    {
+      "city": "Itanagar",
+      "file": "city_itanagar.json"
+    },
+    {
+      "city": "Agartala",
+      "file": "city_agartala.json"
+    },
+    {
+      "city": "Kavaratti",
+      "file": "city_kavaratti.json"
+    },
+    {
+      "city": "Leh",
+      "file": "city_leh.json"
+    },
+    {
+      "city": "Daman",
+      "file": "city_daman.json"
+    },
+    {
+      "city": "Diu",
+      "file": "city_diu.json"
+    },
+    {
+      "city": "Port Blair",
+      "file": "city_port_blair.json"
+    }
+  ]
+}
