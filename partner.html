@@ -89,13 +89,13 @@
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script>
     (function(){
-      emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+      emailjs.init("0I0k-VFFiGDksOPT-"); // Replace with your EmailJS public key
     })();
 
     document.getElementById("partnerForm").addEventListener("submit", function(event){
       event.preventDefault();
 
-      emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
+      emailjs.sendForm("service_afnfbcn", "template_46c9icp", this)
         .then(function() {
           document.getElementById("successMessage").style.display = "block";
           document.getElementById("partnerForm").reset();
