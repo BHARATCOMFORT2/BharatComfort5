@@ -259,9 +259,47 @@
     };
 
     // Add initial super admins here for bootstrap
-    const SUPER_ADMINS = ["shrrajbhar12340@gmail.com","bharatcomfort85@gmail.com"];
+    const SUPER_ADMINS = ["shrrajbhar12340@gmail.com"];
+<script>
+// Define superadmins by email (backup method)
+const SUPER_ADMINS = ["shrrajbhar12340@gmail.com"];
 
-    // ---- 2) INIT ----
+// After user login
+auth.onAuthStateChanged(async (user) => {
+  if (user) {
+    const uid = user.uid;
+    const userRef = doc(db, "users", uid);
+    const snap = await getDoc(userRef);
+
+    let role = "user"; // default
+    if (snap.exists()) {
+      role = snap.data().role;
+    }
+
+    // Always show correct dashboard
+    if (role === "user") {
+      document.getElementById("user-dashboard").style.display = "block";
+    }
+    if (role === "partner") {
+      document.getElementById("partner-dashboard").style.display = "block";
+    }
+    if (role === "admin") {
+      document.getElementById("admin-dashboard").style.display = "block";
+    }
+    if (role === "superadmin" || SUPER_ADMINS.includes(user.email)) {
+      document.getElementById("superadmin-dashboard").style.display = "block";
+    }
+
+    // Optional: show logged-in user email
+    document.getElementById("welcome-text").innerText =
+      "Welcome, " + (snap.exists() ? snap.data().name : user.email);
+  } else {
+    // If not logged in, hide dashboards
+    document.getElementById("user-dashboard").style.display = "none";
+    document.getElementById("partner-dashboard").style.display = "none";
+    document.getElementById("admin-dashboard").style.display = "none";
+    document.getElementById("superadmin-dashboard").style.display = "none";
+
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
     import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, sendPasswordResetEmail, signOut } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js";
     import { getFirestore, collection, doc, getDoc, getDocs, setDoc, addDoc, updateDoc, deleteDoc, serverTimestamp, query, where, orderBy } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore.js";
