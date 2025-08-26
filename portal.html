@@ -60,8 +60,6 @@
         <button id="btnLogout" class="btn danger hidden">Logout</button>
       </div>
     </div>
-
-    <!-- ===== AUTH VIEWS ===== -->
     <div id="authViews" class="grid cols-2">
       <div id="loginCard" class="card">
         <h1>Login</h1>
@@ -95,8 +93,6 @@
         </div>
       </div>
     </div>
-
-    <!-- ===== DASHBOARDS WRAPPER ===== -->
     <div id="dashWrap" class="hidden">
       <div class="card" style="margin-bottom:16px;">
         <div class="tabs">
@@ -107,8 +103,6 @@
         </div>
         <div class="tag">Tabs shown are based on your role. If you don't see a tab, you don't have that role.</div>
       </div>
-
-      <!-- ===== USER DASHBOARD ===== -->
       <section id="userDash" class="card hidden">
         <h2>Discover Listings</h2>
         <div class="grid cols-3">
@@ -146,8 +140,6 @@
           </table>
         </div>
       </section>
-
-      <!-- ===== PARTNER DASHBOARD ===== -->
       <section id="partnerDash" class="card hidden">
         <h2>Partner – Manage Your Listings</h2>
         <div class="grid cols-2">
@@ -195,8 +187,6 @@
           </table>
         </div>
       </section>
-
-      <!-- ===== ADMIN DASHBOARD ===== -->
       <section id="adminDash" class="card hidden">
         <h2>Admin – Approvals & All Listings</h2>
         <div class="grid cols-2">
@@ -226,8 +216,6 @@
           </div>
         </div>
       </section>
-
-      <!-- ===== SUPER ADMIN DASHBOARD ===== -->
       <section id="superDash" class="card hidden">
         <h2>Super Admin – Platform Controls</h2>
         <div class="grid cols-2">
@@ -257,21 +245,6 @@
         </div>
       </section>
     </div>
-
-    <div class="card" style="margin-top:18px;">
-      <h2>Setup Guide (Read Once)</h2>
-      <ol>
-        <li>Create a Firebase project → Web App → copy config.</li>
-        <li>Enable <b>Email/Password</b> and <b>Google</b> providers in <em>Authentication</em>.</li>
-        <li>Create <span class="kbd">Firestore</span> (production mode), region close to India.</li>
-        <li>Edit <span class="kbd">firebaseConfig</span> and <span class="kbd">SUPER_ADMINS</span> in the script below.</li>
-        <li>Deploy this single HTML on your hosting (or open locally for testing).</li>
-        <li>First login using a Super Admin email → you'll see all tabs.</li>
-      </ol>
-      <div class="notice">Optional: set Firestore <b>Security Rules</b> from the comment at the end of this file.</div>
-    </div>
-
-  </div>
 
   <!-- ===== FIREBASE (v10 modular CDN) ===== -->
   <script type="module">
