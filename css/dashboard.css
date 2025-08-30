@@ -1,4 +1,16 @@
-/* ===== Global Dashboard Styles ===== */
+/* css/dashboard.css - dashboard specific */
+body{background:#f4f6f8}
+.header{background:#fff}
+.dash-wrap{max-width:1200px;margin:18px auto;padding:12px}
+.card-box{background:#fff;border-radius:12px;padding:14px;box-shadow:0 6px 20px rgba(2,6,23,0.04);margin-bottom:14px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:900px){.grid-3{grid-template-columns:1fr}}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:8px;border-bottom:1px solid #eef2f6;text-align:left}
+.button{padding:8px 10px;border-radius:8px;border:0;cursor:pointer}
+.button.primary{background:#0077b6;color:white}
+.button.danger{background:#ef4444;color:white}
+.small{font-size:13px;color:var(--muted)}
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
