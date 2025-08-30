@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>BharatComfort – Listings</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Primary styles (minimal, mobile-first) -->
+  <style>
+    :root{
+      --bc:#0b7; --ink:#111; --muted:#6b7280; --bg:#f7f7f8; --card:#fff; --accent:#0aa;
+      --radius:14px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+    header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #eee}
+    .wrap{max-width:1200px;margin:0 auto;padding:12px 16px}
+    .topbar{display:flex;gap:12px;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:10px}
+    .brand .logo{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--bc),#15a);display:grid;place-items:center;color:#fff;font-weight:700}
+    .brand h1{font-size:18px;margin:0}
+    .controls{display:flex;gap:8px;flex-wrap:wrap}
+    select, input, button{border:1px solid #e5e7eb;border-radius:10px;padding:10px 12px;background:#fff}
+    button.primary{background:var(--bc);border-color:var(--bc);color:#fff;font-weight:600;cursor:pointer}
+    button.ghost{background:#fff;color:var(--ink);cursor:pointer}
+    .searchbar{display:grid;grid-template-columns:1fr 140px 120px auto;gap:8px}
+    @media (max-width:800px){ .searchbar{grid-template-columns:1fr 1fr;}}
+    main .layout{display:grid;grid-template-columns:280px 1fr;gap:16px}
+    @media (max-width:980px){ main .layout{grid-template-columns:1fr}}
+    .panel{background:var(--card);border-radius:var(--radius);padding:14px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+    .panel h3{margin:8px 0 12px 0;font-size:16px}
+    .filters .group{margin-bottom:14px}
+    .range{display:flex;gap:8px}
+    .tags{display:flex;flex-wrap:wrap;gap:6px}
+    .tag{padding:6px 10px;border:1px solid #e5e7eb;border-radius:999px;cursor:pointer;font-size:12px}
+    .tag.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+    .results-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    @media (max-width:1100px){ .grid{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:640px){ .grid{grid-template-columns:1fr}}
+    .card{background:var(--card);border-radius:16px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.06);display:flex;flex-direction:column}
+    .card .media{position:relative;height:180px;background:#ddd}
+    .card img{width:100%;height:100%;object-fit:cover}
+    .badge{position:absolute;left:10px;top:10px;background:#0009;color:#fff;padding:4px 8px;border-radius:999px;font-size:12px}
+    .card .body{padding:12px}
+    .title{display:flex;align-items:center;gap:8px;justify-content:space-between}
+    .title h4{margin:0;font-size:16px}
+    .rating{color:#f59e0b;font-weight:700}
+    .muted{color:var(--muted);font-size:12px}
+    .price{font-weight:700}
+    .card .foot{display:flex;gap:8px;margin-top:10px}
+    .pill{font-size:12px;border:1px solid #e5e7eb;border-radius:999px;padding:6px 10px}
+    .map-wrap{margin-top:12px}
+    .map{height:360px;border-radius:16px;background:#cfe;overflow:hidden}
+    .pagination{display:flex;gap:8px;justify-content:center;margin:16px 0}
+    .pagination button{padding:8px 12px}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    .share{display:inline-flex;gap:6px}
+    .wishlist{background:#fff;border:1px solid #eee;border-radius:10px;padding:8px;cursor:pointer}
+    .sort{display:flex;gap:8px;align-items:center}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="topbar">
+        <div class="brand">
+          <div class="logo">BC</div>
+          <h1>BharatComfort</h1>
+        </div>
+        <div class="controls">
+          <select id="langSelect" aria-label="Language">
+            <option value="en">English</option>
+            <option value="hi">हिन्दी</option>
+          </select>
+          <select id="currencySelect" aria-label="Currency">
+            <option value="INR">INR ₹</option>
+            <option value="USD">USD $</option>
+            <option value="EUR">EUR €</option>
+            <option value="GBP">GBP £</option>
+            <option value="AED">AED</option>
+            <option value="SGD">SGD</option>
+            <option value="AUD">AUD</option>
+          </select>
+          <button class="ghost" id="toggleMapBtn" data-i18n="toggleMap">Show Map</button>
+          <a class="ghost" href="index.html" data-i18n="home">Home</a>
+        </div>
+      </div>
+      <div class="searchbar" style="margin-top:10px">
+        <input id="q" placeholder="Search city, hotel, restaurant" data-i18n-placeholder="searchPlaceholder" />
+        <input id="dates" type="text" placeholder="Dates (optional)" />
+        <select id="guests">
+          <option value="1">1 Guest</option>
+          <option value="2">2 Guests</option>
+          <option value="3">3 Guests</option>
+          <option value="4">4 Guests</option>
+        </select>
+        <button class="primary" id="searchBtn" data-i18n="search">Search</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" style="margin-top:14px">
+    <div class="layout">
+      <!-- Filters -->
+      <aside class="panel filters" aria-label="Filters">
+        <h3 data-i18n="filters">Filters</h3>
+
+        <div class="group">
+          <label class="muted" data-i18n="city">City</label>
+          <select id="cityFilter">
+            <option value="">All</option>
+            <option>Delhi</option><option>Mumbai</option><option>Bengaluru</option>
+            <option>Goa</option><option>Patna</option><option>Dubai</option><option>Singapore</option>
+            <option>London</option><option>New York</option>
+          </select>
+        </div>
+
+        <div class="group">
+          <label class="muted" data-i18n="priceRange">Price Range (per night)</label>
+          <div class="range">
+            <input type="number" id="minPrice" placeholder="Min" min="0" />
+            <input type="number" id="maxPrice" placeholder="Max" min="0" />
+          </div>
+        </div>
+
+        <div class="group">
+          <label class="muted" data-i18n="rating">Rating</label>
+          <div class="tags" id="ratingTags">
+            <span class="tag" data-rating="4.5">4.5+</span>
+            <span class="tag" data-rating="4">4.0+</span>
+            <span class="tag" data-rating="3.5">3.5+</span>
+            <span class="tag" data-rating="0">All</span>
+          </div>
+        </div>
+
+        <div class="group">
+          <label class="muted" data-i18n="amenities">Amenities</label>
+          <div class="tags" id="amenityTags">
+            <span class="tag" data-amenity="wifi">Wi-Fi</span>
+            <span class="tag" data-amenity="ac">AC</span>
+            <span class="tag" data-amenity="pool">Pool</span>
+            <span class="tag" data-amenity="parking">Parking</span>
+            <span class="tag" data-amenity="breakfast">Breakfast</span>
+          </div>
+        </div>
+
+        <div class="group">
+          <label class="muted" data-i18n="type">Type</label>
+          <div class="tags" id="typeTags">
+            <span class="tag" data-type="hotel">Hotel</span>
+            <span class="tag" data-type="restaurant">Restaurant</span>
+            <span class="tag" data-type="resort">Resort</span>
+            <span class="tag" data-type="apartment">Apartment</span>
+          </div>
+        </div>
+
+        <div class="group">
+          <button class="primary" id="applyFiltersBtn" style="width:100%" data-i18n="applyFilters">Apply Filters</button>
+          <button class="ghost" id="clearFiltersBtn" style="width:100%;margin-top:8px" data-i18n="clear">Clear</button>
+        </div>
+
+        <p class="muted" style="font-size:11px" data-i18n="disclaimer">
+          Prices are converted dynamically and may vary at payment.
+        </p>
+      </aside>
+
+      <!-- Results -->
+      <section>
+        <div class="panel results-head">
+          <div>
+            <strong id="resultCount">0</strong> <span class="muted" data-i18n="results">results</span>
+          </div>
+          <div class="sort">
+            <span class="muted" data-i18n="sortBy">Sort by</span>
+            <select id="sortSelect">
+              <option value="best" data-i18n="bestMatch">Best match</option>
+              <option value="priceAsc" data-i18n="priceLowHigh">Price: Low to High</option>
+              <option value="priceDesc" data-i18n="priceHighLow">Price: High to Low</option>
+              <option value="ratingDesc" data-i18n="ratingHighLow">Rating: High to Low</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="cards" class="grid" aria-live="polite"></div>
+
+        <div class="pagination" id="pagination"></div>
+
+        <div class="map-wrap" id="mapWrap" style="display:none">
+          <div class="panel">
+            <h3 data-i18n="map">Map & Directions</h3>
+            <div id="map" class="map"></div>
+            <div style="margin-top:10px">
+              <button class="ghost" id="openDirections" data-i18n="getDirections">Get Directions</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script>
+    /***** Sample data (replace with Firestore/Backend results) *****/
+    const SAMPLE_LISTINGS = [
+      { id:'d1', name:'Skyline Hotel', city:'Delhi', type:'hotel', priceINR:3200, rating:4.4, reviews:812, amenities:['wifi','ac','breakfast','parking'], img:'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200&auto=format&fit=crop', lat:28.6139, lng:77.2090, badge:'Top Pick' },
+      { id:'m1', name:'Bombay Bistro', city:'Mumbai', type:'restaurant', priceINR:1200, rating:4.6, reviews:1290, amenities:['wifi','parking'], img:'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop', lat:19.0760, lng:72.8777, badge:'Popular' },
+      { id:'b1', name:'TechCity Suites', city:'Bengaluru', type:'hotel', priceINR:2800, rating:4.2, reviews:540, amenities:['wifi','ac','parking'], img:'https://images.unsplash.com/photo-1501117716987-c8e3f8c9fcff?q=80&w=1200&auto=format&fit=crop', lat:12.9716, lng:77.5946 },
+      { id:'g1', name:'Goa Beach Resort', city:'Goa', type:'resort', priceINR:5600, rating:4.7, reviews:2100, amenities:['wifi','ac','pool','breakfast','parking'], img:'https://images.unsplash.com/photo-1501117716987-c8e3f8c9fcff?q=80&w=1200&auto=format&fit=crop', lat:15.2993, lng:74.1240, badge:'Beachfront' },
+      { id:'p1', name:'Patna Comfort Inn', city:'Patna', type:'hotel', priceINR:1900, rating:4.0, reviews:220, amenities:['wifi','breakfast'], img:'https://images.unsplash.com/photo-1551776235-dde6d4829808?q=80&w=1200&auto=format&fit=crop', lat:25.5941, lng:85.1376 },
+      { id:'dxb1', name:'Marina View', city:'Dubai', type:'hotel', priceINR:9800, rating:4.8, reviews:3100, amenities:['wifi','ac','pool','breakfast','parking'], img:'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200&auto=format&fit=crop', lat:25.2048, lng:55.2708, badge:'Luxury' },
+      { id:'sg1', name:'Lion City Eats', city:'Singapore', type:'restaurant', priceINR:2500, rating:4.5, reviews:870, amenities:['wifi'], img:'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?q=80&w=1200&auto=format&fit=crop', lat:1.3521, lng:103.8198 },
+      { id:'ldn1', name:'Thames View Apartments', city:'London', type:'apartment', priceINR:11000, rating:4.3, reviews:480, amenities:['wifi','ac'], img:'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop', lat:51.5072, lng:-0.1276 },
+      { id:'ny1', name:'Central Dine', city:'New York', type:'restaurant', priceINR:3500, rating:4.4, reviews:1600, amenities:['wifi','parking'], img:'https://images.unsplash.com/photo-1528605248644-14dd04022da1?q=80&w=1200&auto=format&fit=crop', lat:40.7128, lng:-74.0060 }
+    ];
+
+    /***** Simple i18n *****/
+    const I18N = {
+      en:{
+        home:"Home", toggleMap:"Show Map", search:"Search", filters:"Filters", city:"City",
+        priceRange:"Price Range (per night)", rating:"Rating", amenities:"Amenities", type:"Type",
+        applyFilters:"Apply Filters", clear:"Clear", results:"results", sortBy:"Sort by",
+        bestMatch:"Best match", priceLowHigh:"Price: Low to High", priceHighLow:"Price: High to Low",
+        ratingHighLow:"Rating: High to Low", map:"Map & Directions", getDirections:"Get Directions",
+        disclaimer:"Prices are converted dynamically and may vary at payment.",
+        searchPlaceholder:"Search city, hotel, restaurant"
+      },
+      hi:{
+        home:"होम", toggleMap:"मैप दिखाएं", search:"खोजें", filters:"फ़िल्टर", city:"शहर",
+        priceRange:"कीमत सीमा (प्रति रात)", rating:"रेटिंग", amenities:"सुविधाएँ", type:"प्रकार",
+        applyFilters:"फ़िल्टर लागू करें", clear:"साफ़ करें", results:"परिणाम", sortBy:"क्रमबद्ध करें",
+        bestMatch:"सर्वोत्तम मिलान", priceLowHigh:"कीमत: कम से अधिक", priceHighLow:"कीमत: अधिक से कम",
+        ratingHighLow:"रेटिंग: उच्च से निम्न", map:"मैप व दिशा-निर्देश", getDirections:"दिशा-निर्देश",
+        disclaimer:"कीमतें डायनेमिक रूप से कनवर्ट होती हैं और भुगतान पर बदल सकती हैं।",
+        searchPlaceholder:"शहर, होटल, रेस्टोरेंट खोजें"
+      }
+    };
+
+    function applyI18n(lang){
+      document.querySelectorAll("[data-i18n]").forEach(el=>{
+        const key = el.dataset.i18n;
+        if(I18N[lang]?.[key]) el.textContent = I18N[lang][key];
+      });
+      // placeholders
+      document.querySelectorAll("[data-i18n-placeholder]").forEach(el=>{
+        const key = el.dataset.i18nPlaceholder;
+        if(I18N[lang]?.[key]) el.placeholder = I18N[lang][key];
+      });
+    }
+
+    /***** Currency conversion (static demo rates; replace with live FX) *****/
+    const FX = {
+      base:'INR',
+      rates:{
+        INR:1, USD:0.012, EUR:0.011, GBP:0.0096, AED:0.044, SGD:0.017, AUD:0.018
+      },
+      symbol:{INR:'₹',USD:'$',EUR:'€',GBP:'£',AED:'AED ',SGD:'S$',AUD:'A$'}
+    };
+    function convertINR(amountINR, to='INR'){
+      const rate = FX.rates[to]||1;
+      return amountINR * rate;
+    }
+    function fmtCurrency(amount, code){
+      const sym = FX.symbol[code] || '';
+      return sym + Math.round(amount).toLocaleString();
+    }
+
+    /***** State *****/
+    let state = {
+      lang: localStorage.getItem('lang') || 'en',
+      currency: localStorage.getItem('ccy') || 'INR',
+      q:'', city:'', min:0, max:0, ratingMin:0, amenities: new Set(), types:new Set(),
+      sort:'best', page:1, perPage:6, showMap:false, currentMarkers:[]
+    };
+
+    /***** Helpers *****/
+    function starify(r){
+      const full = Math.floor(r), half = (r-full)>=0.5;
+      let s=''; for(let i=0;i<full;i++) s+='★'; if(half) s+='☆';
+      return s || '★';
+    }
+    function matchesFilters(item){
+      const text = state.q.trim().toLowerCase();
+      if(text && !(`${item.name} ${item.city} ${item.type}`.toLowerCase().includes(text))) return false;
+      if(state.city && item.city !== state.city) return false;
+      if(state.min && item.priceINR < state.min) return false;
+      if(state.max && item.priceINR > state.max) return false;
+      if(item.rating < state.ratingMin) return false;
+      if(state.amenities.size){
+        for(const a of state.amenities){ if(!item.amenities.includes(a)) return false; }
+      }
+      if(state.types.size && !state.types.has(item.type)) return false;
+      return true;
+    }
+    function sortListings(arr){
+      const ccy = state.currency;
+      const val = (x)=>convertINR(x.priceINR, ccy);
+      switch(state.sort){
+        case 'priceAsc': return arr.sort((a,b)=>val(a)-val(b));
+        case 'priceDesc': return arr.sort((a,b)=>val(b)-val(a));
+        case 'ratingDesc': return arr.sort((a,b)=>b.rating-a.rating);
+        default: return arr.sort((a,b)=> (b.rating*1000 + b.reviews) - (a.rating*1000 + a.reviews));
+      }
+    }
+
+    /***** Render *****/
+    const cardsEl = document.getElementById('cards');
+    const countEl = document.getElementById('resultCount');
+    const pagEl   = document.getElementById('pagination');
+
+    function render(){
+      // filter + sort
+      const filtered = sortListings(SAMPLE_LISTINGS.filter(matchesFilters));
+      const total = filtered.length;
+      countEl.textContent = total;
+
+      // paginate
+      const start = (state.page-1)*state.perPage;
+      const pageItems = filtered.slice(start, start+state.perPage);
+
+      // cards
+      cardsEl.innerHTML = pageItems.map(item=>{
+        const price = fmtCurrency(convertINR(item.priceINR, state.currency), state.currency);
+        return `
+          <article class="card" data-id="${item.id}" data-lat="${item.lat}" data-lng="${item.lng}">
+            <div class="media">
+              <img alt="${item.name}" loading="lazy" src="${item.img}">
+              ${item.badge ? `<div class="badge">${item.badge}</div>`:''}
+              <button class="wishlist" title="Save" style="position:absolute;right:10px;top:10px">♥</button>
+            </div>
+            <div class="body">
+              <div class="title">
+                <h4>${item.name}</h4>
+                <span class="rating" aria-label="${item.rating}">${starify(item.rating)} ${item.rating.toFixed(1)}</span>
+              </div>
+              <div class="muted">${item.city} • ${item.type.charAt(0).toUpperCase()+item.type.slice(1)}</div>
+              <div class="muted" style="margin:4px 0">${item.amenities.map(a=>`<span class="pill">${a}</span>`).join(' ')}</div>
+              <div class="title">
+                <div class="price">${price} <span class="muted" style="font-weight:400">/ night</span></div>
+                <div class="share">
+                  <button class="ghost shareBtn" data-url="${shareUrl(item)}">Share</button>
+                  <a class="primary" href="listing-detail.html?id=${item.id}">Book</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        `;
+      }).join('');
+
+      // pagination
+      const pages = Math.max(1, Math.ceil(total/state.perPage));
+      pagEl.innerHTML = '';
+      for(let p=1;p<=pages;p++){
+        const btn=document.createElement('button');
+        btn.textContent=p;
+        if(p===state.page){ btn.className='primary'; }
+        btn.addEventListener('click',()=>{ state.page=p; render(); scrollToTop(); });
+        pagEl.appendChild(btn);
+      }
+
+      // map markers if visible
+      if(state.showMap){ refreshMapMarkers(); }
+      // wire share + wishlist
+      wireCardActions();
+    }
+
+    function scrollToTop(){ window.scrollTo({top:0,behavior:'smooth'}); }
+
+    function shareUrl(item){
+      const base = location.origin + location.pathname.replace('listings.html','listing-detail.html');
+      const url = `${base}?id=${encodeURIComponent(item.id)}`;
+      return url;
+    }
+
+    function wireCardActions(){
+      document.querySelectorAll('.shareBtn').forEach(btn=>{
+        btn.addEventListener('click', async ()=>{
+          const url = btn.dataset.url;
+          const title = 'Check this on BharatComfort';
+          try{
+            if(navigator.share){ await navigator.share({title, url}); }
+            else { await navigator.clipboard.writeText(url); alert('Link copied!'); }
+          }catch(_e){}
+        });
+      });
+      document.querySelectorAll('.wishlist').forEach(btn=>{
+        btn.addEventListener('click',()=>{
+          btn.textContent = btn.textContent==='♥' ? '💚' : '♥';
+        });
+      });
+      // clicking a card centers the map
+      document.querySelectorAll('.card').forEach(card=>{
+        card.addEventListener('mouseenter', ()=>{
+          if(!state.showMap) return;
+          const lat=parseFloat(card.dataset.lat), lng=parseFloat(card.dataset.lng);
+          if(window._map && lat && lng){ window._map.setCenter({lat,lng}); window._map.setZoom(12); }
+        });
+      });
+    }
+
+    /***** Map (Google Maps JS API) – loads lazily when toggled *****/
+    let mapsScriptLoaded=false;
+    function loadMapScript(){
+      if(mapsScriptLoaded) return;
+      const s=document.createElement('script');
+      s.src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap";
+      s.async=true; s.defer=true;
+      document.body.appendChild(s);
+      mapsScriptLoaded=true;
+    }
+    window.initMap = function(){
+      const first = SAMPLE_LISTINGS[0];
+      window._map = new google.maps.Map(document.getElementById('map'), {
+        center:{lat:first.lat, lng:first.lng}, zoom:5, mapTypeControl:false
+      });
+      refreshMapMarkers();
+    }
+    function refreshMapMarkers(){
+      if(!window._map) return;
+      // clear
+      state.currentMarkers.forEach(m=>m.setMap(null));
+      state.currentMarkers=[];
+      // current page items only
+      const cards = Array.from(document.querySelectorAll('.card'));
+      cards.forEach(card=>{
+        const lat=parseFloat(card.dataset.lat), lng=parseFloat(card.dataset.lng);
+        if(!lat || !lng) return;
+        const marker = new google.maps.Marker({position:{lat,lng}, map:window._map});
+        state.currentMarkers.push(marker);
+      });
+    }
+
+    /***** Events *****/
+    // language & currency
+    const langSelect=document.getElementById('langSelect');
+    const ccySelect =document.getElementById('currencySelect');
+    langSelect.value=state.lang; ccySelect.value=state.currency;
+    applyI18n(state.lang);
+    langSelect.addEventListener('change',e=>{
+      state.lang=e.target.value; localStorage.setItem('lang',state.lang); applyI18n(state.lang);
+    });
+    ccySelect.addEventListener('change',e=>{
+      state.currency=e.target.value; localStorage.setItem('ccy',state.currency); render();
+    });
+
+    // search controls
+    document.getElementById('searchBtn').addEventListener('click',()=>{
+      state.q = document.getElementById('q').value;
+      state.page=1; render();
+    });
+    document.getElementById('q').addEventListener('keydown',e=>{
+      if(e.key==='Enter'){ document.getElementById('searchBtn').click(); }
+    });
+
+    // filters
+    document.getElementById('cityFilter').addEventListener('change',e=>{ state.city=e.target.value; state.page=1; render(); });
+    document.getElementById('applyFiltersBtn').addEventListener('click',()=>{
+      state.min = parseInt(document.getElementById('minPrice').value||0,10);
+      state.max = parseInt(document.getElementById('maxPrice').value||0,10);
+      state.page=1; render();
+    });
+    document.getElementById('clearFiltersBtn').addEventListener('click',()=>{
+      state.q=''; state.city=''; state.min=0; state.max=0; state.ratingMin=0; state.amenities.clear(); state.types.clear(); state.page=1;
+      document.getElementById('q').value=''; document.getElementById('cityFilter').value='';
+      document.querySelectorAll('#ratingTags .tag, #amenityTags .tag, #typeTags .tag').forEach(t=>t.classList.remove('active'));
+      render();
+    });
+
+    // rating, amenities, type tags (toggle)
+    function toggleTag(containerId, setName, attr){
+      const set = state[setName];
+      document.getElementById(containerId).addEventListener('click', (e)=>{
+        const t=e.target.closest('.tag'); if(!t) return;
+        if(containerId==='ratingTags'){
+          document.querySelectorAll('#ratingTags .tag').forEach(el=>el.classList.remove('active'));
+          t.classList.add('active');
+          state.ratingMin=parseFloat(t.dataset.rating||0);
+        }else{
+          const key = t.dataset[attr];
+          if(set.has(key)){ set.delete(key); t.classList.remove('active'); }
+          else { set.add(key); t.classList.add('active'); }
+        }
+        state.page=1; render();
+      });
+    }
+    toggleTag('ratingTags', 'amenities', 'rating'); // special-case handled inside
+    // amenities & type tags:
+    document.getElementById('amenityTags').addEventListener('click',(e)=>{
+      const t=e.target.closest('.tag'); if(!t) return;
+      const key=t.dataset.amenity; if(state.amenities.has(key)){state.amenities.delete(key); t.classList.remove('active');}
+      else {state.amenities.add(key); t.classList.add('active');}
+      state.page=1; render();
+    });
+    document.getElementById('typeTags').addEventListener('click',(e)=>{
+      const t=e.target.closest('.tag'); if(!t) return;
+      const key=t.dataset.type; if(state.types.has(key)){state.types.delete(key); t.classList.remove('active');}
+      else {state.types.add(key); t.classList.add('active');}
+      state.page=1; render();
+    });
+
+    // sort
+    document.getElementById('sortSelect').addEventListener('change',e=>{ state.sort=e.target.value; state.page=1; render(); });
+
+    // map toggle
+    document.getElementById('toggleMapBtn').addEventListener('click',()=>{
+      state.showMap=!state.showMap;
+      document.getElementById('mapWrap').style.display = state.showMap?'block':'none';
+      document.getElementById('toggleMapBtn').textContent = state.showMap ? (state.lang==='hi'?'मैप छुपाएँ':'Hide Map') : (state.lang==='hi'?'मैप दिखाएं':'Show Map');
+      if(state.showMap){ loadMapScript(); setTimeout(refreshMapMarkers,500); }
+    });
+    document.getElementById('openDirections').addEventListener('click',()=>{
+      // open directions to the first visible card
+      const firstCard = document.querySelector('.card');
+      if(!firstCard) return alert('Select a listing first.');
+      const lat=firstCard.dataset.lat, lng=firstCard.dataset.lng;
+      const url=`https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
+      window.open(url, '_blank');
+    });
+
+    // read URL params (deep links)
+    (function readParams(){
+      const u=new URLSearchParams(location.search);
+      const city=u.get('city')||''; const q=u.get('q')||'';
+      if(city){ state.city=city; document.getElementById('cityFilter').value=city; }
+      if(q){ state.q=q; document.getElementById('q').value=q; }
+    })();
+
+    // initial render
+    render();
+  </script>
+</body>
+</html>
