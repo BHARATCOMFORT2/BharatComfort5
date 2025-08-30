@@ -1,4 +1,3 @@
-// admin-dashboard.js - approve listings & moderate
 auth.onAuthStateChanged(async user=>{
   if(!user) return location.href='auth.html';
   loadPending();
